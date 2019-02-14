@@ -1,0 +1,81 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(grass.jpg)
+}
+
+#wrap
+{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+header, nav, section, footer
+{
+    background-color: #ddd;
+   
+    margin: 20px;
+}
+nav
+{
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    
+}
+
+nav a 
+{
+    
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+}
+
+section
+{
+    overflow: auto;
+    padding: 10px;
+}
+
+nav li
+{
+    display: inline;
+   /* padding: 10px;*/
+    
+}
+
+.pic
+{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border: 5px solid black;
+    float: right;
+   
+}
+
+.logo
+{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+   
+}
+header
+{
+    background-color: lightcyan;
+    text-align: center;
+    text-decoration: bold;
+     padding:5px;
+}
+
+footer
+{
+    background-color: lightcyan;
+     font-size: 15px;
+    padding:5px;
+    text-align: center;
+}
