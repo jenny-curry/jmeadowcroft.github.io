@@ -1,0 +1,48 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+#wrap
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer
+{
+    background-color: #ddd;
+    padding: 30px;
+    margin: 20px;
+    overflow: auto;
+}
+
+figure
+{
+   background-color: black; 
+    text-align: center;
+    width: 200px;
+    padding: 10px 10px 5px 10px;
+    border: 1px solid white;
+    float: left;
+    margin: 20px;
+}
+
+figure img
+{
+    width: 100%;
+}
+figcaption
+{
+    padding: 5px;
+    color: white;
+    font-family: Arial;
+    
+}
+
+article
+{
+    width: 90%;
+    margin: 0 auto;
+}
