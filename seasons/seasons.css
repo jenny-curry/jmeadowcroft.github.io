@@ -23,17 +23,13 @@ header, nav, section, footer
 
 header.home
 {
-  
-    
     overflow: auto;
    
-    
-    
 }
 header.home img 
 {
     display: block;
-    width: 70%;
+    width: 50%;
     height: auto;
     margin: 0px auto;
    
@@ -80,13 +76,14 @@ a.home
 {
     background-image: url(home.jpeg);
     color: white;
+   /* background-size: auto;*/
     
 }
 
 a.fall 
 {
     background-image: url(fall-leaves.jpeg);
-    
+    color: white;
 }
 
 a.winter 
@@ -107,6 +104,7 @@ a.summer
 {
     background-image: url(summer.jpeg);  
     background-size: cover;
+    color: darkslategray;
     
 
 }
@@ -132,24 +130,32 @@ h2
     font-size: 40px;
 }
 
+img
+{
+    display: block;
+     width: 60%;
+    height: auto;
+    margin: 0px auto;
+}
 img.fall 
 {
-    width: 100%;
+    width: 60%;
     height: auto;
+    margin: 0px auto;
 }
 img.winter 
 {
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 img.spring 
 {
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 img.summer
 {
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 
