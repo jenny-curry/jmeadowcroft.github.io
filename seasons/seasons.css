@@ -1,0 +1,163 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+#wrap
+{
+    width: 90%;
+    margin: 0 auto;
+    font-family: OCR A Std, monospace;
+}
+
+header, nav, section, footer
+{
+    background-color: lightcyan;
+    height: auto;
+    overflow: auto;
+    padding:20px;
+    margin: 20px 0px;
+     border: 3px solid black;
+}
+
+header.home
+{
+  
+    
+    overflow: auto;
+   
+    
+    
+}
+header.home img 
+{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0px auto;
+   
+    
+}
+h1
+{
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto 0px;
+    display: table;
+
+}
+
+nav
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    background: lightcyan;
+    height: auto;
+}
+
+nav a 
+{
+    display: inline-block;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    padding:  25px 5px 5px 5px;
+    border: 2px solid gray;
+    margin: 3px;
+    width: 15%;
+    background-size: cover;
+}
+    
+
+a.home
+{
+    background-image: url(home.jpeg);
+    color: white;
+    
+}
+
+a.fall 
+{
+    background-image: url(fall-leaves.jpeg);
+    
+}
+
+a.winter 
+{
+    background-image: url(winter.jpeg); 
+    background-size: 75px;
+}
+
+a.spring 
+{
+    background-image: url(spring.jpeg);  
+    background-size: cover;
+ 
+
+}
+
+a.summer 
+{
+    background-image: url(summer.jpeg);  
+    background-size: cover;
+    
+
+}
+nav ul
+{
+    margin: 10px 0px 10px -40px;
+    padding 0;
+}
+
+nav ul li{
+    margin: 0;
+    padding 0;
+
+display: inline;
+  float: center;
+  
+}
+
+h2
+{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+img.fall 
+{
+    width: 100%;
+    height: auto;
+}
+img.winter 
+{
+    width: 100%;
+    height: auto;
+}
+img.spring 
+{
+    width: 100%;
+    height: auto;
+}
+img.summer
+{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+footer
+{
+    background-color: gray;
+    color:white;
+}
