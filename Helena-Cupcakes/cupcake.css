@@ -1,0 +1,182 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    font-family:Verdana, Geneva, sans-serif;
+    height: 100%;
+}
+
+#wrap
+{
+    padding: 5px 0px;
+    width: 70%;
+    margin: 0px auto;
+}
+
+header, nav, section, footer
+{
+    background-color: #ddd;
+    overflow:auto;
+    margin: 0px;
+}
+
+header
+{
+    height: 500px;
+    background-image: url(head.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:5px;
+}
+
+nav
+{
+    height: auto;
+    background-color:turquoise
+}
+
+section
+{
+    height: auto;
+    overflow:auto;
+    background-color: #EC3632;
+}
+
+footer
+{
+    height: auto;
+}
+ .navigation li
+{
+    display: inline-block;
+    padding: 0px 40px;
+    font-size: 15px;
+}
+
+.navigation ul
+{
+     
+}
+
+.navigation a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav
+{
+    text-align: center;
+}
+
+.sidebar a
+{
+    text-decoration: none;
+}
+
+.sidebar 
+{
+    list-style-type: none;
+     text-align: left;
+     margin:0 auto;
+    width:100%;
+   
+}
+
+.sidebar li
+{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 12x;
+    color: white;
+    margin-left: -40px;
+   
+    
+}
+
+h1
+{
+    font-size: 30px;
+    text-decoration: bold;
+}
+
+h2
+{
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+
+
+.footer li
+{
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    
+}
+
+.footer a
+{
+    text-decoration: underline;
+    color: blue;
+}
+
+footer
+{
+    text-align: center;
+    font-size: 12px;
+}
+
+.left
+{
+   height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 10%; 
+    background-color: #EC3632; /* Black */
+    /*overflow-x: hidden; /* Disable horizontal scroll */
+    /*padding: 20px;*/
+   display:inline-block;
+    float:left;
+    position: absolute; 
+}
+
+.leftinfo
+{
+    
+}
+.right
+{
+    display:inline-block;
+    position:relative;
+    background-color: white;
+    
+    width: 80%;
+    float:right;
+}
+
+.info
+{
+    padding:20px;
+}
+
+footer
+{
+    background-color:turquoise;
+}
+
+footer p 
+{
+    text-align: center;
+}
+
+img 
+{
+    margin: 20px;
+    width: 20%;
+    height:auto;
+
+}
