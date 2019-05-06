@@ -194,7 +194,7 @@ footer
     background-color: lightsteelblue;
     border: 2px solid blue;
 }
-
+ 
 .breeds h1
 {
     font-size: 30px;
@@ -213,6 +213,21 @@ footer
     width: 90%;
     margin: 20px auto;
     display: block;
+}
+.breeds div
+{
+    margin: 0 auto;
+    display: block;
+    float: center;
+    width: 90%;
+    height: 600px;
+}
+
+.breeds iframe
+{
+    width:inherit;
+    height: inherit; 
+    
 }
 
 .gallery
@@ -237,3 +252,97 @@ footer
     margin: 30px auto;
     display: block;
 }
+
+.fb like
+{
+    font-size: 20px;
+}
+
+@media screen and (min-width:700px) and (max-width:3000px)
+{
+   .home img
+    {
+        height: 450px;
+        width: auto;
+    }
+    .care img
+    {
+         height: 450px;
+        width: auto;
+    }
+    .about img
+    {
+        height: 310px;
+        width: auto;
+    }
+    .breeds img
+    {
+         height: 215px;
+        width: auto;
+    }
+    
+    .gallery img
+    {
+         height: 300px;
+        width: auto;
+    }
+    
+}
+
+@media screen and (min-width:600px) and (max-width:800px)
+{
+    header
+    {
+        height: 400px;
+    }
+    
+    header h1
+    {
+        font-size: 30px;
+        padding-top: 10px;
+      
+    }
+    
+    .breeds div
+    {
+        width: 90%;
+        height: 500px;
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:599px)
+{
+    header
+    {
+        height: 300px;
+    }
+    
+    header h1
+    {
+        font-size: 25px;
+        padding-top: 10px;
+      
+    }
+    nav
+    {
+        font-size: 15px;
+        padding: 1px 0px 5px 0px;
+        margin: 10px 20px 0px -15px;
+
+    }
+
+    nav a 
+    {
+        padding: 4px 5px 4px 5px;
+        margin: 5px -1px;
+    }
+    .breeds div
+    {
+        width: 90%;
+        height: 400px;
+    }
+}
+    
+    
+
