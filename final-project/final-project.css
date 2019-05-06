@@ -1,0 +1,239 @@
+html, body
+{
+    margin: 0;
+    padding: 0px;
+    background: rgb(249,230,177);
+    background: linear-gradient(180deg, rgba(183, 210, 255,1) 0%, rgba(2,61,10,1) 100%); 
+    font-family: 'Mali', 'cursive';
+}
+
+#wrap
+{
+   background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 15px;
+}
+
+  section
+{
+    background-color: #ddd;
+    height: 100px;
+    margin: 20px;
+}
+
+header
+{
+    background-image: url(rabbit-background.jpg);
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    background-position:center;
+    background-repeat:no-repeat;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin: 0px 30px;
+}
+
+header h1
+{
+    font-size: 40px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 15px;
+    color:midnightblue;
+      
+}
+
+nav
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 1px 0px 5px 0px;
+    background: white;
+    display:inline-block;
+    margin: 10px 20px 0px -10px;
+    width: 100%;
+   
+}
+
+nav a 
+{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px 8px 10px;
+     background-color: 	rgb(39,130, 39);
+    /*border: 2px solid blue;*/
+    margin: 5px -1px;
+}
+
+nav a:hover
+{
+    color:darkseagreen;
+    background-color: white;
+    
+}
+
+nav ul
+{
+    margin: 0;
+    padding 0;
+}
+
+nav ul li
+{
+    margin: 0;
+    padding 0;
+    display: inline;
+    float: center;
+}
+
+.home
+{
+    padding: 20px;
+    height: auto;
+    background-color: antiquewhite;
+    border: 2px solid rgb(39,130, 39);
+   
+}
+
+.home h1
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.home h2
+{
+     padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.home img
+{
+    height: auto;
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+}
+footer
+{
+    background-color: black;
+    padding: 10px;
+    margin: 30px;
+    
+}
+footer
+{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.about
+{
+     padding: 20px;
+    height: auto;
+    background-color: lightsteelblue;
+    border: 2px solid blue;
+}
+
+.about h1
+{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.about h2
+{
+    font-size: 25px;
+}
+
+.about img
+{
+    height: auto;
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+}
+
+.care
+{
+     padding: 20px;
+    height: auto;
+    background-color: lightsteelblue;
+    border: 2px solid blue;
+}
+
+.care h1
+{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.care h2
+{
+    font-size: 25px;
+}
+
+.care img
+{
+    height: auto;
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+}
+
+.breeds
+{
+     padding: 20px;
+    height: auto;
+    background-color: lightsteelblue;
+    border: 2px solid blue;
+}
+
+.breeds h1
+{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.breeds h2
+{
+    font-size: 25px;
+}
+
+.breeds img
+{
+    height: auto;
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+}
+
+.gallery
+{
+     padding: 20px;
+    height: auto;
+    background-color: lightsteelblue;
+    border: 2px solid blue;
+}
+
+.gallery h1
+{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.gallery img
+{
+    height: auto;
+    width: 90%;
+    margin: 30px auto;
+    display: block;
+}
